@@ -1,7 +1,7 @@
 ---
-title: Your Website
-author: Your Name Here
-description: "A quick website description"
+title: Krogenth
+author: Krogenth
+description: "A professional idiot"
 layout: default
 permalink: /
 ---

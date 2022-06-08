@@ -1,13 +1,10 @@
 #LinkedIn
 #https://www.linkedin.com/in/{{LinkedInUsername}}/
-linkdin_username: /
+linkdin_username: /krogenth
 
 #GitHub
 #https://github.com/{{GitHubUsername}}
-github_username: /
+github_username: /krogenth
 
 #https://github.com/{{GitHubUsername}}/{{GitHubRepo}}
-github_repo: /
-
-#The email you'd like people to contact you with.
-email: /
+github_repo: /krogenth/krogenth.github.io

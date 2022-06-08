@@ -1,13 +1,10 @@
 #If you have worked on relevant projects talk about them here
 
-- name: Project 1
-  description: A few sentences describing your project.
+- name: nes_emu
+  description: A windows based emulator for the old school Nintendo Entertainment System
 
-- name: Project 2
-  description: A few sentences describing your project.
+- name: AdditionalPylons
+  description: A Zergling rushing AI for Starcraft Broodwar
 
-- name: Project 3
-  description: A few sentences describing your project.
-
-- name: Project 4
-  description: A few sentences describing your project.
+- name: G2DataGUI
+  description: A mod tool for the Remastered version of Grandia 2
