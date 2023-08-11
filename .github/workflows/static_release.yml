@@ -36,10 +36,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: npm
-
-      - name: Install NPM Dependencies
-        run: npm ci
+          cache: 'npm'
 
       - name: Build Site
         run: npm run build

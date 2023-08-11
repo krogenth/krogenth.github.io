@@ -12,14 +12,6 @@
     <ul>
       <li>
         <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
-          target="_blank"
-          rel="noopener"
-          >babel</a
-        >
-      </li>
-      <li>
-        <a
           href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-typescript"
           target="_blank"
           rel="noopener"
@@ -95,16 +87,14 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
+import { defineComponent } from "vue";
 
-@Options({
+export default defineComponent({
+  name: "HelloWorld",
   props: {
     msg: String,
   },
-})
-export default class HelloWorld extends Vue {
-  msg!: string;
-}
+});
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
