@@ -28,9 +28,7 @@ jobs:
   # build site before deploying
   build:
     runs-on: ubuntu-latest
-    container:
-      image: emscripten/emsdk
-
+    
     steps:
       - uses: actions/checkout@v3
 
